@@ -1,0 +1,19 @@
+# Normalize line endings for text files
+* text=auto eol=lf
+
+# Windows scripts: CRLF on checkout
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Unix installers / shell: always LF
+*.sh text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,58 @@
+# Build outputs
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+**/build/
+
+# Maven (flat layout)
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# Package / installers (generated)
+dist/
+release/
+*.dmg
+*.msi
+*.deb
+*.rpm
+*.pkg
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Cursor / local tooling
+.cursor/
+tmp/
+*.log
+
+# Notes / local scratch (if used)
+dev-eldridge.notes/
+
+# Java tooling
+.jre/
+.jdk/
